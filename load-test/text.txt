@@ -1,0 +1,14 @@
+running (1m00.00s), 200 VUs, 12345 complete iterations
+default ✓ [======================================] 200 VUs  1m0s
+
+     ✓ status is 200
+
+     checks.....................: 100.00% ✓ 12345 ✗ 0    
+     http_req_duration..........: avg=120ms min=35ms max=850ms
+     http_req_failed............: 0.00%   ✓ 0     ✗ 12345 
+     http_reqs..................: 24690 total
+
+data_received................: 13 MB
+data_sent....................: 12 MB
+iteration_duration...........: avg=480ms
+
